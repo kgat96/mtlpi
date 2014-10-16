@@ -1,6 +1,7 @@
 include ../Makefile.inc
 
-GEN_EXE = simple_thread detached_attrib thread_incr
+GEN_EXE = simple_thread detached_attrib thread_incr thread_incr_mutex\
+		  thread_multijoin
 
 EXE = ${GEN_EXE}
 
