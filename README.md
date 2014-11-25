@@ -15,5 +15,6 @@ progconc        3 (System Programming Concepts)
 
 fileio          4 and 5 (File I/O)
 
+signals         20 to 22 (Signals)
 
 threads         29 to 33 (POSIX Threads)
