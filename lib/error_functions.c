@@ -21,28 +21,28 @@ static void terminate(bool exit3)
 		_exit(EXIT_FAILURE);
 }
 
-static void outputError(bool useErr, int err, bool flush,
-		const char *format, va_list ap)
+static void outputError(bool useErr, int err, bool flush, const char *format,
+        va_list ap)
 {
 #define BUF_SIZE 512
-	char buf[BUF_SIZE], userMsg[BUF_SIZE], errText[BUF_SIZE];
+    char buf[BUF_SIZE], userMsg[BUF_SIZE], errText[BUF_SIZE];
 
-	vsnprintf(userMsg, BUF_SIZE, format, ap);
+    vsnprintf(userMsg, BUF_SIZE, format, ap);
 
-	if (useErr)
-		snprintf(errText, BUF_SIZE, " [%s %s]",
-				(err > 0 && err <= MAX_ENAME) ? 
-				ename[err] : "?UNKNOWN?", strerror(err));
-	else
-		snprintf(errText, BUF_SIZE, ":");
+    if (useErr)
+        snprintf(errText, BUF_SIZE, " [%d %s %s]", getpid(),
+                (err > 0 && err <= MAX_ENAME) ? ename[err] : "?UNKNOWN?",
+                strerror(err));
+    else
+        snprintf(errText, BUF_SIZE, ":[%d]", getpid());
 
-	snprintf(buf, BUF_SIZE, "ERROR%s %s\n", errText, userMsg);
+    snprintf(buf, BUF_SIZE, "ERROR%s %s\n", errText, userMsg);
 
-	if (flush)
-		fflush(stdout);
+    if (flush)
+        fflush(stdout);
 
-	fputs(buf, stderr);
-	fflush(stderr);
+    fputs(buf, stderr);
+    fflush(stderr);
 }
 
 void errMsg(const char *format, ...)
