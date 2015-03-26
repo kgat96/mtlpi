@@ -1,6 +1,7 @@
 include ../Makefile.inc
 
-GEN_EXE = simple_pipe change_case pipe_sync fifo_seqnum_server fifo_seqnum_client
+GEN_EXE = simple_pipe change_case pipe_sync fifo_seqnum_server fifo_seqnum_client\
+           popen_glob
 
 LINUX_EXE =
 
