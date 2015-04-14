@@ -31,15 +31,32 @@ int main(int argc, char *argv[])
         if (close(inbound[0]) == -1)   // close in-read
             errExit("close");
 
+        if (outbound[0] != STDIN_FILENO) {              /* Defensive check */
+            if (dup2(outbound[0], STDIN_FILENO) == -1)
+                errExit("dup2 1");
+            if (close(outbound[0]) == -1)
+                errExit("close 2");
+        }
+
+        if (inbound[1] != STDOUT_FILENO) {              /* Defensive check */
+            if (dup2(inbound[1], STDOUT_FILENO) == -1)
+                errExit("dup2 1");
+            if (close(inbound[1]) == -1)
+                errExit("close 2");
+        }
+
         /* Read data from "outbound" pipe, convert to uppercase,
            and send back to parent on inbound pipe */
-        while ((cnt = read(outbound[0], buf, BUF_SIZE)) > 0) {
-            for (j = 0; j < cnt; j++)
-                buf[j] = toupper((unsigned char) buf[j]);
+//        while ((cnt = read(outbound[0], buf, BUF_SIZE)) > 0) {
+//            for (j = 0; j < cnt; j++)
+//                buf[j] = toupper((unsigned char) buf[j]);
+//
+//            if (write(inbound[1], buf, cnt) == -1)
+//                errExit("write");
+//        }
 
-            if (write(inbound[1], buf, cnt) == -1)
-                errExit("write");
-        }
+        execlp("bash", "bash", (char *) NULL);          /* Writes to pipe */
+        errExit("execlp busybox");
 
         if (cnt == -1)
             errExit("read");

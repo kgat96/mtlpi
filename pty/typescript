@@ -1,0 +1,222 @@
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m tty
+/dev/pts/5
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m ls
+[0m[00mmakefile[0m  [00mpty_fork.c[0m  [00mpty_fork.h[0m  [00mpty_master_open.c[0m  [00mpty_master_open.h[0m  [01;32mscript[0m*  [00mscript.c[0m  [00mtypescript[0m
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m ls -al
+total 68K
+drwxr-xr-x  2 kage kage 4.0K Apr 14 20:45 [0m[01;34m.[0m/
+drwxr-xr-x 15 kage kage 4.0K Apr 14 17:07 [01;34m..[0m/
+-rw-r--r--  1 kage kage  227 Apr 14 09:23 [00mmakefile[0m
+-rw-r--r--  1 kage kage 1.9K Apr 14 11:58 [00mpty_fork.c[0m
+-rw-r--r--  1 kage kage  253 Apr 14 09:27 [00mpty_fork.h[0m
+-rw-r--r--  1 kage kage 1.1K Apr 14 20:43 [00mpty_master_open.c[0m
+-rw-r--r--  1 kage kage  136 Apr 14 12:00 [00mpty_master_open.h[0m
+-rwxr-xr-x  1 kage kage  29K Apr 14 20:45 [01;32mscript[0m*
+-rw-r--r--  1 kage kage 2.3K Apr 14 20:45 [00mscript.c[0m
+-rw-r--r--  1 kage kage 1.1K Apr 14 20:46 [00mtypescript[0m
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 181788  4916 ?        Ss   08:47   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    08:47   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    08:47   0:07 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    08:47   0:16 [rcu_preempt]
+root         8  0.0  0.0      0     0 ?        S    08:47   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        S    08:47   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    08:47   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    08:47   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    08:47   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    08:47   0:00 [migration/1]
+root        14  0.0  0.0      0     0 ?        S    08:47   0:02 [ksoftirqd/1]
+root        16  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/1:0H]
+root        17  0.0  0.0      0     0 ?        S    08:47   0:00 [watchdog/2]
+root        18  0.0  0.0      0     0 ?        S    08:47   0:00 [migration/2]
+root        19  0.0  0.0      0     0 ?        S    08:47   0:02 [ksoftirqd/2]
+root        21  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/2:0H]
+root        22  0.0  0.0      0     0 ?        S    08:47   0:00 [watchdog/3]
+root        23  0.0  0.0      0     0 ?        S    08:47   0:00 [migration/3]
+root        24  0.0  0.0      0     0 ?        S    08:47   0:02 [ksoftirqd/3]
+root        26  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/3:0H]
+root        27  0.0  0.0      0     0 ?        S<   08:47   0:00 [khelper]
+root        28  0.0  0.0      0     0 ?        S    08:47   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        S<   08:47   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S<   08:47   0:00 [perf]
+root        31  0.0  0.0      0     0 ?        S    08:47   0:00 [khungtaskd]
+root        32  0.0  0.0      0     0 ?        S<   08:47   0:00 [writeback]
+root        33  0.0  0.0      0     0 ?        SN   08:47   0:00 [ksmd]
+root        34  0.0  0.0      0     0 ?        SN   08:47   0:01 [khugepaged]
+root        35  0.0  0.0      0     0 ?        S<   08:47   0:00 [crypto]
+root        36  0.0  0.0      0     0 ?        S<   08:47   0:00 [kintegrityd]
+root        37  0.0  0.0      0     0 ?        S<   08:47   0:00 [bioset]
+root        38  0.0  0.0      0     0 ?        S<   08:47   0:00 [kblockd]
+root        39  0.0  0.0      0     0 ?        S<   08:47   0:00 [devfreq_wq]
+root        41  0.0  0.0      0     0 ?        S    08:47   0:00 [kswapd0]
+root        42  0.0  0.0      0     0 ?        S    08:47   0:00 [fsnotify_mark]
+root        47  0.0  0.0      0     0 ?        S<   08:47   0:00 [kthrotld]
+root        51  0.0  0.0      0     0 ?        S<   08:47   0:00 [ipv6_addrconf]
+root        53  0.0  0.0      0     0 ?        S<   08:47   0:00 [deferwq]
+root        56  0.0  0.0      0     0 ?        S    08:47   0:03 [kworker/3:1]
+root        76  0.0  0.0      0     0 ?        S    08:47   0:03 [kworker/1:1]
+root        83  0.0  0.0      0     0 ?        S<   08:47   0:00 [ata_sff]
+root        85  0.0  0.0      0     0 ?        S    08:47   0:00 [scsi_eh_0]
+root        86  0.0  0.0      0     0 ?        S<   08:47   0:00 [scsi_tmf_0]
+root        87  0.0  0.0      0     0 ?        S    08:47   0:00 [scsi_eh_1]
+root        88  0.0  0.0      0     0 ?        S<   08:47   0:00 [scsi_tmf_1]
+root        89  0.0  0.0      0     0 ?        S    08:47   0:00 [scsi_eh_2]
+root        90  0.0  0.0      0     0 ?        S<   08:47   0:00 [scsi_tmf_2]
+root        91  0.0  0.0      0     0 ?        S    08:47   0:00 [scsi_eh_3]
+root        92  0.0  0.0      0     0 ?        S<   08:47   0:00 [scsi_tmf_3]
+root        98  0.0  0.0      0     0 ?        S    08:47   0:04 [kworker/2:2]
+root       103  0.0  0.0      0     0 ?        S<   08:47   0:01 [kworker/0:1H]
+root       104  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/2:1H]
+root       105  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/3:1H]
+root       113  0.0  0.0      0     0 ?        S    08:47   0:01 [jbd2/sda1-8]
+root       114  0.0  0.0      0     0 ?        S<   08:47   0:00 [ext4-rsv-conver]
+root       156  0.0  0.1  38636 12268 ?        Ss   08:47   0:00 /usr/lib/systemd/systemd-journald
+root       162  0.0  0.0      0     0 ?        S<   08:47   0:00 [kworker/1:1H]
+root       167  0.0  0.0  34832  3428 ?        Ss   08:47   0:00 /usr/lib/systemd/systemd-udevd
+root       185  0.0  0.0      0     0 ?        S    08:47   0:00 [irq/32-mei_me]
+root       224  0.0  0.0      0     0 ?        S<   08:47   0:00 [kpsmoused]
+root       280  0.0  0.0      0     0 ?        S<   08:47   0:00 [hd-audio0]
+root       288  0.0  0.0      0     0 ?        S<   08:47   0:00 [kvm-irqfd-clean]
+root       304  0.0  0.0      0     0 ?        S    08:47   0:00 [jbd2/sda2-8]
+root       305  0.0  0.0      0     0 ?        S<   08:47   0:00 [ext4-rsv-conver]
+root       309  0.0  0.0      0     0 ?        S<   08:47   0:00 [led_workqueue]
+root       337  0.0  0.0      0     0 ?        S    08:47   0:00 [jbd2/sdb6-8]
+root       338  0.0  0.0      0     0 ?        S<   08:47   0:00 [ext4-rsv-conver]
+root       340  0.0  0.0      0     0 ?        S    08:47   0:00 [jbd2/sdb1-8]
+root       341  0.0  0.0      0     0 ?        S<   08:47   0:00 [ext4-rsv-conver]
+root       345  0.0  0.0      0     0 ?        S    08:47   0:00 [jbd2/sdb7-8]
+root       346  0.0  0.0      0     0 ?        S<   08:47   0:00 [ext4-rsv-conver]
+root       352  0.0  0.0  15196  2552 ?        Ss   08:47   0:00 /usr/lib/systemd/systemd-logind
+root       354  0.0  0.1 419228 12060 ?        Ssl  08:47   0:00 /usr/bin/NetworkManager --no-daemon
+dbus       355  0.0  0.0  31568  3480 ?        Ss   08:47   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       364  0.0  0.0  14156  1712 tty1     Ss+  08:47   0:00 /sbin/agetty --noclear tty1 linux
+root       367  0.0  0.2 149884 20768 ?        Ss   08:47   0:00 /usr/bin/slim -nodaemon
+root       378  1.6  1.7 609944 145380 tty7    Ssl+ 08:47  12:01 /usr/lib/xorg-server/Xorg -nolisten tcp vt07 -auth /var/run/slim.auth
+root       379  0.0  0.0  40436  5196 ?        Ss   08:47   0:00 /usr/bin/sshd -D
+polkitd    385  0.0  0.2 517968 16976 ?        Ssl  08:47   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root       815  0.0  0.0  31700  3288 pts/0    Sl   09:59   0:37 adb -P 5037 fork-server server
+root      1001  0.0  0.0  35272  4148 ?        S    10:02   0:00 /usr/lib/xfce4/xfconf/xfconfd
+root      1004  0.0  0.0 225208  6680 ?        Sl   10:02   0:00 /usr/lib/gvfs/gvfsd
+root      1008  0.0  0.0 300796  6864 ?        Sl   10:02   0:00 /usr/lib/gvfs/gvfsd-fuse /root/.gvfs -f -o big_writes
+kage      6502  0.0  0.0 148920  7160 ?        Sl   10:17   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      9542  0.0  0.0      0     0 ?        S    14:29   0:01 [kworker/u8:0]
+kage      9738  0.0  0.1 361976  8564 ?        SLl  14:53   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+kage      9751  0.0  0.4 621416 38320 ?        Sl   14:53   0:14 /usr/bin/Thunar /home/kage
+kage      9765  0.0  0.2 607052 19452 ?        SLl  14:53   0:00 /usr/lib/gvfs/gvfsd-smb-browse --spawner :1.13 /org/gtk/gvfs/exec_spaw/2
+kage      9771  0.0  0.2 660128 19232 ?        SLl  14:53   0:00 /usr/lib/gvfs/gvfsd-smb --spawner :1.13 /org/gtk/gvfs/exec_spaw/3
+kage     11280  0.0  0.0  22192  3984 pts/7    Ss+  17:08   0:00 bash
+root     14175  0.0  0.0      0     0 ?        S    17:49   0:00 [kworker/u8:1]
+kage     14631  0.0  0.0  22192  4072 pts/6    Ss   17:54   0:00 bash
+root     19846  0.0  0.0      0     0 ?        S    18:30   0:05 [kworker/0:2]
+kage     21118  0.1  0.0 315460  2396 pts/6    S+   19:50   0:03 axel http://sourcery.mentor.com/public/gnu_toolchain/mips-linux-gnu/mips-2014.11-22-mips-linux-gnu-i686-pc-l
+root     21283  0.0  0.0  12040   680 pts/0    S    20:03   0:00 sleep 3600
+kage     21514  0.0  0.0  22192  3972 pts/3    Ss+  20:36   0:00 bash
+root     21586  0.0  0.0      0     0 ?        S    20:38   0:00 [kworker/3:0]
+kage     21604 10.5  1.0 1544556 88168 pts/7   Sl   20:40   0:39 /usr/bin/python2 /usr/bin/meld ../pty /mnt/ssd/work/tlpi-dist/pty
+root     21643  0.0  0.0      0     0 ?        S    20:40   0:00 [kworker/0:0]
+root     21677  0.0  0.0      0     0 ?        S    20:40   0:00 [kworker/2:1]
+root     21680  0.0  0.0      0     0 ?        S    20:41   0:00 [kworker/1:2]
+kage     21828  0.0  0.6 1593380 50636 pts/7   S    20:43   0:00 /usr/bin/python2 /usr/bin/meld ../pty /mnt/ssd/work/tlpi-dist/pty
+kage     21829  0.0  0.6 1593380 50640 pts/7   S    20:43   0:00 /usr/bin/python2 /usr/bin/meld ../pty /mnt/ssd/work/tlpi-dist/pty
+kage     21830  0.0  0.6 1593380 50636 pts/7   S    20:43   0:00 /usr/bin/python2 /usr/bin/meld ../pty /mnt/ssd/work/tlpi-dist/pty
+kage     21831  0.0  0.6 1593380 50636 pts/7   S    20:43   0:00 /usr/bin/python2 /usr/bin/meld ../pty /mnt/ssd/work/tlpi-dist/pty
+root     21847  0.0  0.0      0     0 ?        S    20:45   0:00 [kworker/0:1]
+kage     21865  0.0  0.0  22192  3956 pts/4    Ss   20:45   0:00 bash
+kage     21875  0.0  0.0   9380  1748 pts/4    R+   20:45   0:00 ./script
+kage     21876  0.0  0.0  22192  3888 pts/5    Ss   20:45   0:00 /bin/bash
+kage     21906  0.0  0.0  39196  3100 pts/5    R+   20:46   0:00 ps aux
+kage     31322  0.0  0.0  35752  4292 ?        Ss   08:47   0:00 /usr/lib/systemd/systemd --user
+kage     31323  0.0  0.0  82004  1612 ?        S    08:47   0:00 (sd-pam)
+kage     31329  0.0  0.0  19820  3088 ?        S    08:47   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+kage     31337  0.0  0.0  18028  1924 ?        S    08:47   0:00 dbus-launch --sh-syntax --exit-with-session
+kage     31338  0.0  0.0  31716  2936 ?        Ss   08:47   0:00 /usr/bin/dbus-daemon --fork --print-pid 6 --print-address 8 --session
+kage     31344  0.0  0.1 441040 11900 ?        S<l  08:47   0:01 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit    31345  0.0  0.0 178252  2876 ?        SNsl 08:47   0:00 /usr/lib/rtkit/rtkit-daemon
+kage     31350  0.0  0.0  83324  3412 ?        S    08:47   0:00 /usr/lib/pulse/gconf-helper
+kage     31352  0.0  0.0  49660  4768 ?        S    08:47   0:00 /usr/lib/GConf/gconfd-2
+kage     31357  0.0  0.2 378412 21308 ?        Sl   08:47   0:01 xfce4-session
+kage     31360  0.0  0.0  35524  4372 ?        S    08:47   0:00 /usr/lib/xfce4/xfconf/xfconfd
+kage     31363  0.0  0.0  13340   344 ?        Ss   08:47   0:00 /usr/bin/ssh-agent -s
+kage     31365  0.0  0.0 171320   448 ?        Ss   08:47   0:01 /usr/bin/gpg-agent --sh --daemon --write-env-file /home/kage/.cache/gpg-agent-info
+kage     31366  0.1  0.4 239456 34756 ?        S    08:47   1:01 xfwm4 --display :0.0 --sm-client-id 26f1260d8-0ee8-4b4c-9d77-eed09ef1b5ec
+kage     31368  0.0  0.5 865584 47676 ?        Sl   08:47   0:09 xfce4-panel --display :0.0 --sm-client-id 2464396b1-3169-4a9d-a152-100ee367af40
+kage     31370  0.0  0.2 380296 18896 ?        Ssl  08:47   0:02 xfsettingsd --display :0.0 --sm-client-id 2bc26015b-e9cd-4b6a-b181-fd4f42520683
+kage     31376  0.0  0.5 628004 45732 ?        Sl   08:47   0:10 xfdesktop --display :0.0 --sm-client-id 200e2d86e-203f-4395-83af-1c7a96fcecae
+kage     31381  0.0  0.0 225580  7204 ?        Sl   08:47   0:00 /usr/lib/gvfs/gvfsd
+kage     31385  0.0  0.1 440200  9256 ?        Sl   08:47   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kage     31404  0.0  0.1 278948 14872 ?        Ssl  08:47   0:00 xfce4-power-manager --restart --sm-client-id 2f6d657fc-40c3-453a-bb5f-58c5dc50c830
+kage     31405  0.1  0.1 382744 14988 ?        Sl   08:47   1:10 ibus-daemon
+kage     31410  0.0  0.3 324456 26740 ?        Sl   08:47   0:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+kage     31412  0.0  0.1 204856 13884 ?        Ss   08:47   0:00 xfce4-power-manager
+kage     31414  0.0  0.2 532088 16556 ?        Sl   08:47   0:01 zeitgeist-datahub
+kage     31415  0.0  0.5 568192 44924 ?        Sl   08:47   0:00 nm-applet
+kage     31416  0.0  0.2 202752 18156 ?        S    08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libdatetime.so 5 16777259 datetime DateTime Da
+kage     31419  0.0  0.3 913920 28180 ?        Sl   08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libmixer.so 16 16777260 mixer Audio Mixer Adju
+kage     31420  0.0  0.1 205240 15020 ?        S    08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libsystray.so 6 16777261 systray Notification 
+kage     31422  0.0  0.2 366584 18124 ?        Sl   08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libscreenshooterplugin.so 18 16777262 screensh
+kage     31424  0.0  0.0 302692  7592 ?        Sl   08:47   0:00 /usr/lib/ibus/ibus-dconf
+kage     31425  0.0  0.0  60708  5004 ?        S    08:47   0:04 xscreensaver -no-splash
+kage     31426  0.0  0.2 365868 20292 ?        Sl   08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libactions.so 2 16777263 actions Action Button
+kage     31427  0.0  0.3 608072 27472 ?        Sl   08:47   0:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel-plugins/libnotes.so 17 16777270 xfce4-notes-plugin-47 
+kage     31428  0.0  0.6 552500 50668 ?        Sl   08:47   0:15 /usr/lib/ibus/ibus-ui-gtk3
+kage     31432  0.0  0.1 369720 10388 ?        Sl   08:47   0:00 /usr/bin/zeitgeist-daemon
+kage     31442  0.0  0.0 261724  5544 ?        Sl   08:47   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+kage     31446  0.0  0.1 460284  9192 ?        Sl   08:47   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root     31460  0.0  0.0 359488  7256 ?        Ssl  08:47   0:10 /usr/lib/udisks2/udisksd --no-debug
+root     31472  0.0  0.1 295644  8908 ?        Ssl  08:47   0:00 /usr/lib/upower/upowerd
+kage     31473  0.0  0.0  31020  3052 ?        S    08:47   0:01 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+kage     31478  0.0  0.0 123060  4872 ?        Sl   08:47   0:07 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+kage     31531  0.0  0.0 381628  7700 ?        Sl   08:47   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0
+kage     31537  0.0  0.2 291220 17240 ?        Sl   08:47   0:01 /usr/lib/ibus-rime/ibus-engine-rime --ibus
+kage     31547  7.0  7.3 1698988 596724 ?      Sl   08:47  50:23 /usr/bin/firefox
+kage     31647  0.0  0.0 226836  7416 ?        Sl   08:48   0:14 /usr/lib/ibus/ibus-engine-simple
+kage     31682  0.0  0.0 176080  4620 ?        Sl   08:54   0:00 /usr/lib/dconf/dconf-service
+kage     31720  0.1  0.4 618092 32768 ?        Sl   08:59   0:47 /usr/bin/xfce4-terminal
+kage     31726  0.0  0.0   8352  1504 ?        S    08:59   0:00 gnome-pty-helper
+kage     31727  0.0  0.0  22192  4096 pts/0    Ss   08:59   0:00 bash
+root     31813  0.0  0.0  76212  5096 pts/0    S    09:02   0:00 sudo -s
+root     31815  0.0  0.0  22176  3852 pts/0    S+   09:02   0:00 /bin/bash
+root     31825  0.0  0.0  19824  3096 pts/0    S    09:02   0:00 /bin/bash ./xrun.sh
+root     31827  0.0  0.0  19824  2000 pts/0    S    09:02   0:00 /bin/bash ./xrun.sh
+root     31828  0.0  0.1  89460 14240 pts/0    S    09:02   0:05 python2.7 /home/kage/Downloads/GoAgent/proxy.py
+root     31834  0.0  0.0      0     0 ?        S<   09:02   0:00 [iprt]
+root     31835  0.0  0.7 1161724 58644 pts/0   Sl   09:02   0:07 /usr/lib/virtualbox/VirtualBox
+root     31851  0.0  0.0  18028  1744 pts/0    S    09:02   0:00 /usr/bin/dbus-launch --autolaunch e4ce577fb36e4a3098b5d767d604fa68 --binary-syntax --close-stderr
+root     31852  0.0  0.0  31148  2228 ?        Ss   09:02   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root     31854  0.0  0.0  49464  4688 ?        S    09:02   0:00 /usr/lib/GConf/gconfd-2
+root     31860  0.0  0.1 159780  9268 ?        S    09:02   0:23 /usr/lib/virtualbox/VBoxXPCOMIPCD
+root     31870  0.1  0.2 703716 18724 ?        Sl   09:02   0:58 /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+kage     31903  0.0  0.0  22192  4072 pts/1    Ss+  09:02   0:00 bash
+kage     31920  0.0  0.0  36448  5472 pts/1    S    09:02   0:00 ssh -x -a -oClearAllForwardings=yes -2 kkshen@194.169.1.31 -s sftp
+kage     31921  0.0  0.0 240060   360 ?        Ssl  09:02   0:00 sshfs kkshen@194.169.1.31:/home/kkshen/ /mnt/server/
+kage     31933  0.0  0.0  17352  2140 pts/1    S    09:03   0:00 eclipse
+kage     31935  1.8  8.2 3359508 664840 pts/1  Sl   09:03  13:14 /mnt/ssd/soft/jdk1.7.0_10/bin/java -Dosgi.requiredJavaVersion=1.7 -XX:MaxPermSize=256m -Xms40m -Xmx512m -jar
+kage     31949  0.0  0.0  22188  3920 pts/2    Ss   09:03   0:00 bash
+kage     31976  0.0  0.0  36592  5404 pts/2    S+   09:03   0:00 ssh -Y kkshen@194.169.1.31
+root     32090  3.6 14.9 3172480 1213180 ?     Sl   09:06  25:38 /usr/lib/virtualbox/VirtualBox --comment Xp --startvm 14ced809-275e-4826-8a69-3949e47a75d6 --no-startvm-erro
+kage     32220  0.0  0.4 604840 34660 ?        Sl   09:15   0:00 xfce4-appfinder
+kage     32227  0.0  0.5 623348 40996 ?        Sl   09:15   0:00 stardict
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m tty
+/dev/pts/5
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m 
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty $[00m ^C
+]0;kage@kpc:/mnt/data/mtlpi/pty[01;32mkage@kpc[01;34m /mnt/data/mtlpi/pty [01;31m:([01;34m $[00m exit

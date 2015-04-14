@@ -13,5 +13,7 @@ long getLong(const char *arg, int flags, const char *name);
 
 int getInt(const char *arg, int flags, const char *name);
 
+void printWaitStatus(const char *msg, int status);
+
 #endif
 
